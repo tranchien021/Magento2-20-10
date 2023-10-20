@@ -1,0 +1,29 @@
+.instruction {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-bottom: 1px solid rgba(237, 237, 237, 1);
+}
+
+.header.content {
+    background: linear-gradient(90.67deg, #FFFFFF 28.2%, #DB6B9A 54.15%, #AB1E7A 85.24%);
+}
+
+.box-category{
+    border: 1px solid rgba(168, 56, 147, 1);
+    border-radius: 8px;
+    width: 385px;
+    height: 170px;
+    padding: 6px, 36px, 5px, 4px;
+}
+.block-search {
+    margin-right: 50%;
+    width: 588px;
+    height: 44px;
+    border-radius: 8px;
+}
+.input-text {
+    width: 588px;
+    height: 44px;
+    border-radius: 8px;
+}
+

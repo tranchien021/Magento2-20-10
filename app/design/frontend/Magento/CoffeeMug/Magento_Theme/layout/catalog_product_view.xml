@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceContainer name="main">
+            <block class="Magento\Framework\View\Element\Template" name="title_detail_content" template="Magento_Theme::html/product_relate.phtml"></block>
+            <block class="Magento\Framework\View\Element\Template" name="recentview_content" template="Magento_Theme::html/recentview.phtml"></block>
+        </referenceContainer>
+
+         <referenceContainer name="main.content">
+            <container name="hearder.content.detail" label="Mini-cart promotion block">
+              <referenceContainer name="product.info.main">
+                <block class="Magento\Framework\View\Element\Template" name="content_left_detail" template="Magento_Theme::html/content_left_detail.phtml"></block>
+                <block class="Magento\Framework\View\Element\Template" name="content_left_detail_ul" template="Magento_Theme::html/content_left_detail_ul.phtml"></block>
+            </referenceContainer>
+            <referenceContainer name="product.info.price" remove="true"> </referenceContainer>
+            <!-- <referenceContainer name="product.info.social" remove="true"> </referenceContainer> -->
+            </container>
+        </referenceContainer>
+       
+<!--       
+         <referenceContainer name="product.info.main">
+            <block class="Magento\Framework\View\Element\Template" name="title_detail_content" template="Magento_Theme::html/content_left.phtml"></block>
+        </referenceContainer> -->
+        <move element="product.info.review" destination="columns.top" />
+        <move element="product.info.stock.sku" destination="product.info.main" before="content_left_detail_ul" />
+        <move element="product.info.addtocart.additional" destination="product.info.main" />
+       
+    </body>
+</page>
