@@ -32,7 +32,7 @@ $quickSearchUrl = $allowedSuggestion ? $escaper->escapeUrl($helper->getSuggestUr
                 <label class="label" for="search" data-role="minisearch-label">
                     <span><?= $escaper->escapeHtml(__('Search')) ?></span>
                 </label>
-                <div class="control" style="margin-left:65%; display: flex; width:530px;">
+                <div class="control input-form-search">
                     <input id="search"
                            data-mage-init='{
                             "quickSearch": {
@@ -53,14 +53,13 @@ $quickSearchUrl = $allowedSuggestion ? $escaper->escapeUrl($helper->getSuggestUr
                            aria-autocomplete="both"
                            autocomplete="off"
                            aria-expanded="false"
-                           style="border-top-left-radius: 8px; border-bottom-left-radius: 8px; height:40px; font-family: Quicksand;"
                            />
                     <div id="search_autocomplete" class="search-autocomplete"></div>
                     <button type="submit"
                         title="<?= $escaper->escapeHtml(__('Search')) ?>"
                         class="search"
                         aria-label="Search"
-                        style="border-top-right-radius: 8px; border-bottom-right-radius: 8px; "
+                        id="button-search"
                     >
                     <span><?= $escaper->escapeHtml(__('Search')) ?></span>
                     </button>

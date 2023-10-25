@@ -6,6 +6,9 @@
             <block class="Magento\Framework\View\Element\Template" name="custom.block" template="Magento_Theme::html/imageheader.phtml" />
         </referenceContainer>
         <referenceContainer name="header.panel" remove="true"></referenceContainer>
+        <referenceContainer name="content">
+            <block class="Magento\Framework\View\Element\Template" template="Magento_Theme::requirejs.phtml" />
+        </referenceContainer>
         
     
      <referenceContainer name="header-wrapper">
