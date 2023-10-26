@@ -50,5 +50,16 @@ module.exports = {
             'css/styles'
         ],
         dsl: 'less'
+    },
+    CoffeeMug: {
+        area: 'frontend',
+        name: 'Magento/CoffeeMug',
+        locale: 'en_US',
+        files: [
+            'css/styles-m',
+            'css/styles-l',
+        ],
+        dsl: 'less'
     }
+
 };

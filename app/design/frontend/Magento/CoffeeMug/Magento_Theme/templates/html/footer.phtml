@@ -8,6 +8,7 @@
         line-height: 20px;
         letter-spacing: 0.7px;
     }
+
     .menu li a {
         color: var(--primary-000, #FAD2F2);
         font-family: Quicksand;
@@ -17,6 +18,7 @@
         line-height: 20px;
         letter-spacing: 0.7px;
     }
+
     .footertext a {
         color: var(--primary-000, #FAD2F2);
         font-family: Quicksand;
@@ -26,107 +28,136 @@
         line-height: 20px;
         letter-spacing: 0.7px;
     }
-    .headerfooter{
+
+    .headerfooter {
         color: var(--primary-000, #FAD2F2);
         font-family: Quicksand;
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
-        line-height: 20px; 
+        line-height: 20px;
         letter-spacing: 0.7px;
     }
-    .footerlink{
+
+    .footerlink {
         text-decoration: none;
-    }   
-    .text-payment{
+    }
+
+    .text-payment {
         color: var(--White, #FFF);
         font-family: Quicksand;
         font-size: 14px;
         font-style: normal;
         font-weight: 500;
-        line-height: 20px; 
+        line-height: 20px;
         letter-spacing: 0.7px;
         margin-right: 15px;
     }
 </style>
-<footer class="footer"><footer style="background: var(--primary-500, #93117B);">
-    <div class="container pt-5">
-        <div class="row mb-5">
-            <div class="col-sm-3 content-footer">
-                <h4 class="headerfooter">QUICK LINKs</h4>
-                <div class="mt-5">
-                    <ul class="menu" style="list-style-type: none">
-                        <li><a class="footerlink"  href="">Terms & Conditions</a></li>
-                        <li><a class="footerlink" href="">Privacy Policies</a></li>
-                        <li><a class="footerlink" href="">Delivery - Return - Warranty</a></li>
-                        <li><a class="footerlink" href="">Payment Methods</a></li>
-                        <li><a class="footerlink" href="">Loyalty Program</a></li>
-                    </ul>
-                </div>
-            </div>
-            <div class="col-sm-3 content-footer">
-                <h4 class="headerfooter">COMPANY</h4>
-                <div class="mt-5">
-                    <p class="footertext">
-                        <a class="footerlink" href="">About us</a>
-                    </p> 
-                    <p class="footertext">
-                        <a class="footerlink" href="">FAQs</a>
-                    </p> 
-                </div>
-                <div class="mt-2">
-                    <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/nganhang.png'); ?>" alt="">
-                </div>
-            </div>
-            <div class="col-sm-3 content-footer">
-                <h4 class="headerfooter">Follow us</h4>
-                <div style="display:flex">
-                    <div >
-                        <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/facebook.png'); ?>" alt="">
-                    </div>
-                    <div style="margin-left: 15px;">
-                        <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/Youtube.png'); ?>" alt="">
+<footer class="footer">
+    <footer style="background: var(--primary-500, #93117B);">
+        <div class="container pt-5">
+            <div class="row mb-5">
+                <div class="col-sm-3 content-footer">
+                    <h4 class="headerfooter">QUICK LINKs</h4>
+                    <div class="mt-5">
+                        <ul class="menu" style="list-style-type: none">
+                            <li><a class="footerlink" href="">Terms & Conditions</a></li>
+                            <li><a class="footerlink" href="">Privacy Policies</a></li>
+                            <li><a class="footerlink" href="">Delivery - Return - Warranty</a></li>
+                            <li><a class="footerlink" href="">Payment Methods</a></li>
+                            <li><a class="footerlink" href="">Loyalty Program</a></li>
+                        </ul>
                     </div>
                 </div>
-              
-                <h4 class="headerfooter">Our Mobile Apps</h4>
-                <div>
-                    <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/AppStore.png'); ?>" alt="">
+                <div class="col-sm-3 content-footer">
+                    <h4 class="headerfooter">COMPANY</h4>
+                    <div class="mt-5">
+                        <p class="footertext">
+                            <a class="footerlink" href="">About us</a>
+                        </p>
+                        <p class="footertext">
+                            <a class="footerlink" href="">FAQs</a>
+                        </p>
+                    </div>
+                    <div class="mt-2">
+                        <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/nganhang.png'); ?>" alt="">
+                    </div>
                 </div>
-                <div class="mt-3">
-                    <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/googleplay.png'); ?>" alt="">
+                <div class="col-sm-3 content-footer">
+                    <h4 class="headerfooter">Follow us</h4>
+                    <div style="display:flex">
+                        <div>
+                            <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/facebook.png'); ?>" alt="">
+                        </div>
+                        <div style="margin-left: 15px;">
+                            <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/Youtube.png'); ?>" alt="">
+                        </div>
+                    </div>
+
+                    <h4 class="headerfooter">Our Mobile Apps</h4>
+                    <div>
+                        <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/AppStore.png'); ?>" alt="">
+                    </div>
+                    <div class="mt-3">
+                        <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/googleplay.png'); ?>" alt="">
+                    </div>
                 </div>
-            </div>
-            <div class="col-sm-3 content-footer">
-                <h4 class="headerfooter">CÔNG TY TNHH ĐIỆN TỬ SHARP VIỆT NAM</h4>
-                <p class="footerlink">
-                    Địa chỉ: T5-B03.07 & T5-B03.09, Lầu 3 Masteri Thảo Điền
-                    159 Xa Lộ Hà Nội, Phường Thảo Điền, T.P Thủ Đức, T.P Hồ Chí Minh, Việt Nam
-                </p>
-                <p class="footerlink">
-                    Email: <a href="" class="__cf_email__" data-cfemail="5734243c3f173438343825383b3e3132792139">cskh@cocorolife.vn</a>
-                </p>
-                <p class="footerlink">
-                    MST: 0308159258 Do Sở kế hoạch Đầu tư TP.HCM cấp ngày 13/3/2009
-                </p>
-                <p>
-                    <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/thongbao.png'); ?>" alt="">
-                </p>
-            </div>
-        </div>
-        <hr>
-        <div class="row">
-            <div class="col-9">
-                <p class="footerlink">© 2022 Cocoro Life. All Rights Reserved</p>
-            </div>
-            <div class="col-sm-3 text-end" style="display:flex">
-                <p class="text-payment" style="color:white">Our Payment Provider</p>
-                <span>
-                    <p>
-                        <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/payyoo.png'); ?>" alt="">
+                <div class="col-sm-3 content-footer">
+                    <h4 class="headerfooter">CÔNG TY TNHH ĐIỆN TỬ SHARP VIỆT NAM</h4>
+                    <p class="footerlink" id="location-component" data-bind="scope: 'information-location' ">
+                       <!-- ko template: getTemplate() --><!-- /ko -->
                     </p>
-                </span>
+                    <p class="footerlink">
+                        Email: <a href="" class="__cf_email__" data-cfemail="5734243c3f173438343825383b3e3132792139">cskh@cocorolife.vn</a>
+                    </p>
+                    <p class="footerlink" id="tax-component" data-bind="scope: 'custom-tutorial' ">
+                        <!-- ko template: getTemplate() --><!-- /ko -->
+
+                    </p>
+                    <p>
+                        <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/thongbao.png'); ?>" alt="">
+                    </p>
+                </div>
+
+            </div>
+            <hr>
+            <div class="row">
+                <div class="col-9">
+                    <p class="footerlink">© 2023 Cocoro Life. All Rights Reserved</p>
+                </div>
+                <div class="col-sm-3 text-end" style="display:flex">
+                    <p class="text-payment" style="color:white">Our Payment Provider</p>
+                    <span>
+                        <p>
+                            <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/payyoo.png'); ?>" alt="">
+                        </p>
+                    </span>
+                </div>
             </div>
         </div>
-    </div>
-</footer>
+    </footer>
+<script type="text/x-magento-init">
+    {
+        "#tax-component" :{
+            "Magento_Ui/js/core/app": {
+                    "components": {
+                        "custom-tutorial": {
+                                "component": "Magento_Theme/js/custom-component",
+                                "template": "Magento_Theme/contentTax"
+                        }
+                    }
+                }
+            },
+        "#location-component" :{
+            "Magento_Ui/js/core/app": {
+                    "components": {
+                        "information-location": {
+                                "component": "Magento_Theme/js/custom-component",
+                                "template": "Magento_Theme/contentLocation"
+                        }
+                    }
+                }
+            }
+    }
+</script>

@@ -1,4 +1,4 @@
-a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1698168663;s:6:"expire";i:1729704663;s:4:"tags";s:37:"69d_LAYOUT_GENERAL_CACHE_TAG,69d_MAGE";}
+a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1698278458;s:6:"expire";i:1729814458;s:4:"tags";s:37:"69d_LAYOUT_GENERAL_CACHE_TAG,69d_MAGE";}
 <?xml version="1.0"?>
 <layouts xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><handle id="catalog_category_view"><body/>
 </handle><handle id="catalogsearch_advanced_index"><body/>
@@ -7224,10 +7224,7 @@ a:4:{s:4:"hash";s:0:"";s:5:"mtime";i:1698168663;s:6:"expire";i:1729704663;s:4:"t
 </body>
 </handle><handle id="default_head_blocks"><head>
    <css src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" src_type="url"/>
-   <link src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"/>
-   <css src="Magento_Theme::css/style.css"/>
-   <css src="Magento_Theme::css/_my-styles.css"/>
-   <link src="Magento_Theme::js/slider.js"/>
+   <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"/>
 </head>
 </handle><layout id="1column"><update handle="empty"/>
 <referenceContainer name="page.wrapper">
