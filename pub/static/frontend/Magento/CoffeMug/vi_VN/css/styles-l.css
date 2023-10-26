@@ -2,11 +2,38 @@
  * Copyright © Magento, Inc. All rights reserved.
  * See COPYING.txt for license details.
  */
+.switcher-option a {
+  list-style-type: none;
+  color: white;
+  text-decoration-line: none;
+}
+.language {
+  display: block !important;
+}
+.section-item-content {
+  display: block !important;
+}
+.switcher {
+  display: block !important;
+  position: absolute;
+  top: 70px;
+  right: 165px;
+  font-size: 10px;
+  color: #ffff;
+}
 .header.content {
   display: flex;
   background: linear-gradient(90.67deg, #ffffff 28.2%, #db6b9a 54.15%, #ab1e7a 85.23999999999999%);
   align-items: center;
   margin-bottom: 20px;
+}
+.action {
+  margin-right: 15px;
+}
+.text {
+  color: #ffff !important;
+  font-style: normal;
+  text-decoration: none;
 }
 .input-form-search {
   margin-left: -360px;
@@ -49,17 +76,6 @@
 .block-search input {
   position: static;
   margin: 0 !important;
-}
-.action {
-  margin-right: 15px;
-}
-.text {
-  color: var(--White, #ffffff);
-  text-align: center;
-  font-family: Quicksand;
-  font-style: normal;
-  font-weight: 700;
-  text-decoration: none;
 }
 .instruction {
   margin-top: 40px;
@@ -174,7 +190,7 @@
   content: '';
   position: absolute;
   top: 0;
-  right: -50%;
+  right: -10%;
   height: 100%;
   width: 100%;
   z-index: -1;

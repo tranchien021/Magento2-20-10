@@ -280,6 +280,7 @@ return array(
     '940bf170cf88b648b1e7cf4ec3411196' => $vendorDir . '/magento/module-swatches/registration.php',
     '3e066e7b5a29d63f855a7fafac672b08' => $vendorDir . '/magento/module-weee/registration.php',
     '056cd8d2398ceabe9e3cff88f4cf877b' => $vendorDir . '/magento/theme-frontend-blank/registration.php',
+    '6b5b87bda6fedcf6ef8605219c8b67f2' => $vendorDir . '/mageplaza/module-core/registration.php',
     '2a3c2110e8e0295330dc3d11a4cbc4cb' => $vendorDir . '/php-webdriver/webdriver/lib/Exception/TimeoutException.php',
     'c7784b5ca2b82b30ead008049149530e' => $vendorDir . '/magento/module-admin-adobe-ims-two-factor-auth/registration.php',
     '4ac3f6c2d619f3e9b6bf4a5dccd248ae' => $vendorDir . '/magento/module-adobe-stock-admin-ui/registration.php',
@@ -511,5 +512,8 @@ return array(
     'f1c1523a4c5d520b50bffc4a75ea5a5c' => $vendorDir . '/magento/module-tax-sample-data/registration.php',
     'f3d4617c4b29f1082289d89745685dad' => $vendorDir . '/magento/module-widget-sample-data/registration.php',
     '759d958743dba8d926c9111b82afe3e9' => $vendorDir . '/magento/module-wishlist-sample-data/registration.php',
+    'f17394378977dc930132979ab6330edb' => $vendorDir . '/mageplaza/magento-2-french-language-pack/registration.php',
+    'fafc74b18998cb7256cedcfe0ee5fcb3' => $vendorDir . '/mageplaza/magento-2-vietnamese-language-pack/registration.php',
+    'a77049f7f3ca4c78b9e3635c8f857d84' => $vendorDir . '/mageplaza/module-smtp/registration.php',
     'b4cf39431a4b949eea8aa69ebb3d39da' => $baseDir . '/app/etc/NonComposerComponentRegistration.php',
 );

@@ -10,7 +10,6 @@
             <block class="Magento\Framework\View\Element\Template" template="Magento_Theme::requirejs.phtml" />
         </referenceContainer>
          
-
      <referenceContainer name="header-wrapper">
             <block class="Magento\Checkout\Block\Cart\Sidebar" name="minicart" as="minicart" after="logo" template="Magento_Theme::html/minicart.phtml">
                 <arguments>
@@ -57,15 +56,6 @@
                 <container name="minicart.addons" label="Mini-cart promotion block"/>
             </block>
         </referenceContainer>
-
-    
-        <!-- <referenceContainer name="main">
-            <block class="Magento\Framework\View\Element\Template" name="skip_to_content" template="Magento_Theme::html/sliderheader.phtml"></block>
-            <block class="Magento\Framework\View\Element\Template" name="instruction_content" template="Magento_Theme::html/instructionPage.phtml"></block>
-            <block class="Magento\Framework\View\Element\Template" name="category_content" template="Magento_Theme::html/topcategory.phtml"></block>
-            <block class="Magento\Framework\View\Element\Template" name="dealofday_content" template="Magento_Theme::html/dealofday.phtml"></block>
-        </referenceContainer> -->
-
         <referenceContainer name="header.panel.wrapper">
             <block class="Magento\Framework\View\Element\Template" name="custom.block" template="Magento_Theme::html/imageheader.phtml" />
         </referenceContainer>

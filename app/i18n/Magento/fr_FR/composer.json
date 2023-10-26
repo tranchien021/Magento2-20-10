@@ -1,0 +1,26 @@
+{
+    "name" : "Magento/magento2-language-fr_FR",
+    "description": "Language pack for France",
+    "version": "1.0.0",
+    "license": [
+        "OSL-3.0",
+        "AFL-3.0"
+    ],
+    "require": {
+        "php": ">=7.2.5",
+        "magento/framework": "*",
+        "magento/language-pack": "*"
+    },
+    "type": "magento2-language",
+    "autoload": {
+        "files": [
+            "registration.php"
+        ]
+    }
+}
+
+
+
+
+
+

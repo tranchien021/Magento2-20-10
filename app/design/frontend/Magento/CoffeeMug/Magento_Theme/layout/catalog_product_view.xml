@@ -15,11 +15,6 @@
                 <referenceContainer name="product.info.price" remove="true"> </referenceContainer>
              </container>
         </referenceContainer>
-       
-<!--       
-         <referenceContainer name="product.info.main">
-            <block class="Magento\Framework\View\Element\Template" name="title_detail_content" template="Magento_Theme::html/content_left.phtml"></block>
-        </referenceContainer> -->
         <move element="product.info.review" destination="columns.top" />
         <move element="product.info.stock.sku" destination="product.info.main" before="content_left_detail_ul" />
         <move element="product.info.addtocart.additional" destination="product.info.main" as="product.detail.addtocart" />

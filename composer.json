@@ -42,7 +42,10 @@
         "magento/module-widget-sample-data": "100.4.*",
         "magento/module-wishlist-sample-data": "100.4.*",
         "magento/product-community-edition": "2.4.6",
-        "magento/sample-data-media": "100.4.*"
+        "magento/sample-data-media": "100.4.*",
+        "mageplaza/magento-2-french-language-pack": "^1.0",
+        "mageplaza/magento-2-vietnamese-language-pack": "dev-master",
+        "mageplaza/module-smtp": "^4.7"
     },
     "autoload": {
         "exclude-from-classmap": [

@@ -281,6 +281,7 @@ class ComposerStaticInit31e137add59e34cc8958c98f406e953f
         '940bf170cf88b648b1e7cf4ec3411196' => __DIR__ . '/..' . '/magento/module-swatches/registration.php',
         '3e066e7b5a29d63f855a7fafac672b08' => __DIR__ . '/..' . '/magento/module-weee/registration.php',
         '056cd8d2398ceabe9e3cff88f4cf877b' => __DIR__ . '/..' . '/magento/theme-frontend-blank/registration.php',
+        '6b5b87bda6fedcf6ef8605219c8b67f2' => __DIR__ . '/..' . '/mageplaza/module-core/registration.php',
         '2a3c2110e8e0295330dc3d11a4cbc4cb' => __DIR__ . '/..' . '/php-webdriver/webdriver/lib/Exception/TimeoutException.php',
         'c7784b5ca2b82b30ead008049149530e' => __DIR__ . '/..' . '/magento/module-admin-adobe-ims-two-factor-auth/registration.php',
         '4ac3f6c2d619f3e9b6bf4a5dccd248ae' => __DIR__ . '/..' . '/magento/module-adobe-stock-admin-ui/registration.php',
@@ -512,6 +513,9 @@ class ComposerStaticInit31e137add59e34cc8958c98f406e953f
         'f1c1523a4c5d520b50bffc4a75ea5a5c' => __DIR__ . '/..' . '/magento/module-tax-sample-data/registration.php',
         'f3d4617c4b29f1082289d89745685dad' => __DIR__ . '/..' . '/magento/module-widget-sample-data/registration.php',
         '759d958743dba8d926c9111b82afe3e9' => __DIR__ . '/..' . '/magento/module-wishlist-sample-data/registration.php',
+        'f17394378977dc930132979ab6330edb' => __DIR__ . '/..' . '/mageplaza/magento-2-french-language-pack/registration.php',
+        'fafc74b18998cb7256cedcfe0ee5fcb3' => __DIR__ . '/..' . '/mageplaza/magento-2-vietnamese-language-pack/registration.php',
+        'a77049f7f3ca4c78b9e3635c8f857d84' => __DIR__ . '/..' . '/mageplaza/module-smtp/registration.php',
         'b4cf39431a4b949eea8aa69ebb3d39da' => __DIR__ . '/../..' . '/app/etc/NonComposerComponentRegistration.php',
     );
 
@@ -620,6 +624,8 @@ class ComposerStaticInit31e137add59e34cc8958c98f406e953f
         'M' => 
         array (
             'Monolog\\' => 8,
+            'Mageplaza\\Smtp\\' => 15,
+            'Mageplaza\\Core\\' => 15,
             'Magento\\Wishlist\\' => 17,
             'Magento\\WishlistSampleData\\' => 27,
             'Magento\\WishlistGraphQl\\' => 24,
@@ -1383,6 +1389,14 @@ class ComposerStaticInit31e137add59e34cc8958c98f406e953f
         'Monolog\\' => 
         array (
             0 => __DIR__ . '/..' . '/monolog/monolog/src/Monolog',
+        ),
+        'Mageplaza\\Smtp\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mageplaza/module-smtp',
+        ),
+        'Mageplaza\\Core\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/mageplaza/module-core',
         ),
         'Magento\\Wishlist\\' => 
         array (
