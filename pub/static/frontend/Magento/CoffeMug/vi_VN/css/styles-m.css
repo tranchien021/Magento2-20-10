@@ -4016,7 +4016,7 @@ fieldset[disabled] .ui-dialog.popup .action.close {
   display: block !important;
   position: absolute;
   top: 70px;
-  right: 165px;
+  right: 120px;
   font-size: 10px;
   color: #ffff;
 }

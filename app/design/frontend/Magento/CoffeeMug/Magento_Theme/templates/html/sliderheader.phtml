@@ -7,18 +7,8 @@
 </style>
 <div class="container">
     <div class="row">
-        <div class="col-sm-8 col-xs-12">
-            <div class="carousel-slider">
-                <div class="item">
-                    <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/Slider.png'); ?>" alt="Chưa có ảnh" />
-                </div>
-                <div class="item">
-                    <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/Slider.png'); ?>" alt="Chưa có ảnh" />
-                </div>
-                <div class="item">
-                    <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/Slider.png'); ?>" alt="Chưa có ảnh" />
-                </div>
-            </div>
+        <div class="col-sm-8 col-xs-12 sliderImageHeader" data-bind="scope: 'image-header'">
+             <!-- ko template: getTemplate() --><!-- /ko -->
         </div>
 
         <div class="col-sm-4">
@@ -34,3 +24,17 @@
         </div>
     </div>
 </div>
+<script type="text/x-magento-init">
+{
+    ".sliderImageHeader": {
+        "Magento_Ui/js/core/app":{
+            "components":{
+                "image-header" :{
+                    "component": "Magento_Theme/js/custom-component",
+                    "template":  "Magento_Theme/sliderHeader"
+                }
+            }
+        }
+    }
+}
+</script>
