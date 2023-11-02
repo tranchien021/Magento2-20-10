@@ -1,1 +1,0 @@
-/var/www/html/vendor/magento/module-translation/view/frontend/web/js/add-class.js

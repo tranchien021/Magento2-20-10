@@ -1,0 +1,40 @@
+<style>
+    @media only screen and (min-width: 576px) { 
+        .banner_image {
+            width: 100%;
+        }
+    }
+</style>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-8 col-xs-12 sliderImageHeader" data-bind="scope: 'image-header'">
+             <!-- ko template: getTemplate() --><!-- /ko -->
+        </div>
+
+        <div class="col-sm-4">
+            <div class="row">
+                <div class="col-6 banner_image">
+                    <img class="mb-3" src="<?php echo $block->getViewFileUrl('Magento_Theme::images/Artboard.png'); ?>" alt="Chưa có ảnh" />
+                </div>
+                <div class="col-6 banner_image">
+                    <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/banner-facema_sk.png'); ?>" alt="Chưa có ảnh" />
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>
+<script type="text/x-magento-init">
+{
+    ".sliderImageHeader": {
+        "Magento_Ui/js/core/app":{
+            "components":{
+                "image-header" :{
+                    "component": "Magento_Theme/js/custom-component",
+                    "template":  "Magento_Theme/sliderHeader"
+                }
+            }
+        }
+    }
+}
+</script>
