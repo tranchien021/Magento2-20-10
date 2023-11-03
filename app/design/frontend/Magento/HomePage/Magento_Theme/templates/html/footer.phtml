@@ -113,7 +113,6 @@
                     </p>
                     <p class="footerlink" id="tax-component" data-bind="scope: 'custom-tutorial' ">
                         <!-- ko template: getTemplate() --><!-- /ko -->
-
                     </p>
                     <p>
                         <img src="<?php echo $block->getViewFileUrl('Magento_Theme::images/thongbao.png'); ?>" alt="">
@@ -124,7 +123,9 @@
             <hr>
             <div class="row">
                 <div class="col-9">
-                    <p class="footerlink"><?= __('© 2023 Cocoro Life. All Rights Reserved') ?></p>
+                    <small class="copyright">
+                        <span><?= $block->escapeHtml($block->getCopyright()) ?></span>
+                    </small>
                 </div>
                 <div class="col-sm-3 text-end" style="display:flex">
                     <p class="text-payment" style="color:white"><?= __('Our Payment Provider') ?></p>

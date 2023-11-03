@@ -353,6 +353,10 @@ return [
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'Temando_ShippingRemover' => 1,
-        'Training_Sales' => 1
+        'Training_Breadcrumbs' => 1,
+        'Training_Footer' => 1,
+        'Training_Sales' => 1,
+        'Training_Pathinfors' => 1,
+        'Training_Order' => 1
     ]
 ];

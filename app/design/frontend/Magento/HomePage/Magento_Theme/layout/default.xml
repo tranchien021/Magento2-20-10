@@ -61,6 +61,7 @@
         </referenceContainer>
 
         <referenceContainer name="footer" remove="true"></referenceContainer>
+        <move element="copyright" destination="footer-container" />
         <referenceContainer name="footer-container">
             <block class="Magento\Framework\View\Element\Template" name="footer.block" template="Magento_Theme::html/footer.phtml" />
         </referenceContainer>
