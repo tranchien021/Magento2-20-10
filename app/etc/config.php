@@ -358,6 +358,7 @@ return [
         'Training_Flushing' => 1,
         'Training_Footer' => 1,
         'Training_GetAdmin' => 1,
+        'Training_GetPrice' => 1,
         'Training_HelloWorld' => 1,
         'Training_Sales' => 1,
         'Training_Pathinfors' => 1,
