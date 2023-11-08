@@ -354,9 +354,16 @@ return [
         'PayPal_BraintreeGraphQl' => 1,
         'Temando_ShippingRemover' => 1,
         'Training_Breadcrumbs' => 1,
+        'Training_CustomizeCateLog' => 1,
+        'Training_Flushing' => 1,
         'Training_Footer' => 1,
+        'Training_GetAdmin' => 1,
+        'Training_HelloWorld' => 1,
         'Training_Sales' => 1,
         'Training_Pathinfors' => 1,
+        'Training_RedirectHome' => 1,
+        'Training_RouterList' => 1,
+        'Training_RouterUrl' => 1,
         'Training_Order' => 1
     ]
 ];

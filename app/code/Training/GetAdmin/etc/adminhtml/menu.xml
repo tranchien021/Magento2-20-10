@@ -1,0 +1,7 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="custom_menu" title="Training" action="menu/create/index" module="Training_GetAdmin" sortOrder="90" resource="Training_GetAdmin::menu" />
+    </menu>
+</config>
+
+

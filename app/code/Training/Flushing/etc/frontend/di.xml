@@ -1,0 +1,13 @@
+<?xml version="1.0" ?>
+
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:ObjectManager/etc/config.xsd">
+    <type name="Magento\Framework\Event\Observer">
+        <arguments>
+            <argument name="observerInstancesHtml" xsi:type="array">
+                <item name="url_observer_output" xsi:type="object">
+                    Training\Flushing\Observer\CaptureOutput
+                </item>
+            </argument>
+        </arguments>
+    </type>
+</config>
