@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<page xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:framework:View/Layout/etc/page_configuration.xsd">
+    <body>
+        <referenceBlock name="product.info.description">
+            <action method="setTemplate">
+                <argument name="custom_block" xsi:type="string">Training_CustomBlock::custom.phtml</argument>
+            </action>
+        </referenceBlock>
+        <referenceBlock name="product.attributes">
+            <action method="setTemplate">
+                <argument name="custom_block" xsi:type="string">Training_CustomBlock::description.phtml</argument>
+            </action>
+        </referenceBlock>
+    </body>
+</page>
