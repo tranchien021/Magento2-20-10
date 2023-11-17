@@ -5,6 +5,6 @@ class FooterPlugin
 {
     public function afterGetCopyright(\Magento\Framework\View\Element\Template $subject)
     {
-        return "Customized copyright!";
+        // return "Customized copyright!";
     }
 }

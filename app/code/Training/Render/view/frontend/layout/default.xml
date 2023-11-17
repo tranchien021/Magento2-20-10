@@ -7,13 +7,13 @@
                     <argument name="path" xsi:type="string">trainingrender/layout/onepage</argument>
                 </arguments>
             </block>
-            <block class="Training\Render\Block\CustomBlock" name="training_content_top_template" template="Training_Render::content-top.phtml">
+            <!-- <block class="Training\Render\Block\CustomBlock" name="training_content_top_template" template="Training_Render::content-top.phtml">
                 <arguments>
                     <argument name="background_color" xsi:type="string">
                         lightskyblue
                     </argument>
                 </arguments>
-            </block>
+            </block> -->
         </referenceContainer>
     </body>
 </page>

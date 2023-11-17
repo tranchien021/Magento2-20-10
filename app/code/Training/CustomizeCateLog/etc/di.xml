@@ -4,3 +4,5 @@
         <plugin name="custom_product_view" type="Training\CustomizeCateLog\Plugin\Catalog\Controller\Product\View" sortOrder="10" disabled="false" />
     </type>
 </config>
+
+

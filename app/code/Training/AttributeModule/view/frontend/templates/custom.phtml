@@ -1,0 +1,23 @@
+<?php
+$_product = $block->getProduct();
+if ($_product) {
+    $customAttribute = $_product->getAttributeText('multi_select_attribute');
+    if ($customAttribute !== null && $customAttribute !== '') {
+        echo '<div class="product-attribute">';
+        echo '<h2>' . __('Your Attribute Label') . ':</h2>';
+
+        if (is_string($customAttribute)) {
+            $customAttribute = explode(',', $customAttribute);
+        }
+        if (is_array($customAttribute) || is_object($customAttribute)) {
+            echo '<ul>';
+            foreach ($customAttribute as $value) {
+                echo '<li style="font-size:12px">' . $value . '</li>';
+            }
+            echo '</ul>';
+        }
+        echo '</div>';
+    } else {
+        echo '<p>' . __('No value for your attribute.') . '</p>';
+    }
+}

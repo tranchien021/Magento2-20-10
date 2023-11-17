@@ -1,0 +1,14 @@
+<?php
+    $block = $this;
+    $filterCarUrl = $block->getUrl('news.html', ['_query' => ['filter' => 'Xiaomi']]);
+    $filterPhoneUrl = $block->getUrl('news.html', ['_query' => ['filter' => 'iPhone']]);
+?>
+<div class="title">
+    <h3> Choose Option </h3>
+</div>
+<div>
+    <span><a href="<?= $filterCarUrl ?>">Xiaomi</a></span>
+</div>
+<div>
+    <span><a href="<?= $filterPhoneUrl ?>">iPhone</a></span>
+</div>
