@@ -1,0 +1,12 @@
+
+<?php $customEntities = $block->getCustomEntities(); ?>
+<?php if ($customEntities): ?>
+    <ul>
+        <?php foreach ($customEntities as $entity): ?>
+            <li><?php echo $entity->getName(); ?></li>
+        <?php endforeach; ?>
+    </ul>
+<?php else: ?>
+    <p>No custom entities found.</p>
+<?php endif; ?>
+

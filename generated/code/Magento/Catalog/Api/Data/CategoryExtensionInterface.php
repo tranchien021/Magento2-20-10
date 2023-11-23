@@ -6,4 +6,14 @@ namespace Magento\Catalog\Api\Data;
  */
 interface CategoryExtensionInterface extends \Magento\Framework\Api\ExtensionAttributesInterface
 {
+    /**
+     * @return string|null
+     */
+    public function getCountries();
+
+    /**
+     * @param string $countries
+     * @return $this
+     */
+    public function setCountries($countries);
 }
