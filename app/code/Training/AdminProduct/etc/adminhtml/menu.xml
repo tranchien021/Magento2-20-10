@@ -1,0 +1,5 @@
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Training_AdminProduct::computer_games_menu" title="Computer Games" module="Training_AdminProduct" parent="Magento_Catalog::catalog" sortOrder="100" action="training_adminproduct/index/index" resource="Training_AdminProduct::computer_games_menu"/>
+    </menu>
+</config>

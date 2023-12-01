@@ -1,0 +1,15 @@
+<?php
+$vendors = $block->getVendorsForProduct();
+if (!empty($vendors)) :
+    ?>
+    <div class="product-vendors">
+        <h2>Vendors for this Product</h2>
+        <ul>
+            <?php foreach ($vendors as $vendor) : ?>
+                <li><?= $vendor['name']; ?></li>
+            <?php endforeach; ?>
+        </ul>
+    </div>
+<?php else : ?>
+    <p>No vendors found for this product.</p>
+<?php endif; ?>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<listing xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Ui:etc/ui_configuration.xsd">
+    <massaction name="listing_massaction">
+        <action name="require_verification_mass">
+            <argument name="data" xsi:type="array">
+                <item name="config" xsi:type="array">
+                    <item name="type" xsi:type="string">require_verification_mass</item>
+                    <item name="label" xsi:type="string" translate="true">Thay đổi Require Verification thành 0</item>
+                    <item name="url" xsi:type="url" path="training_adminproduct/order/massAction"/>
+                    <item name="confirm" xsi:type="array">
+                        <item name="title" xsi:type="string" translate="true">Thay đổi Require Verification</item>
+                        <item name="message" xsi:type="string" translate="true">Bạn có chắc muốn thay đổi Require Verification thành 0 cho các đơn hàng đã chọn không?</item>
+                    </item>
+                </item>
+            </argument>
+        </action>
+    </massaction>
+</listing>

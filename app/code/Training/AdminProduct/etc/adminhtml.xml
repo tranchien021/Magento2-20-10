@@ -1,0 +1,22 @@
+<?xml version="1.0"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/adminhtml.xsd">
+    <menu>
+        <add id="Training_AdminProduct::computer_games" title="Computer Games" module="Training_AdminProduct" sortOrder="10" parent="Magento_Catalog::catalog"/>
+        <add id="Training_AdminProduct::games_list" title="Games List" module="Training_AdminProduct" sortOrder="0" action="training_adminproduct/computerGames" parent="Training_AdminProduct::computer_games"/>
+    </menu>
+    <acl>
+        <resources>
+            <all>
+                <title>Allow Everything</title>
+            </all>
+            <admin>
+                <children>
+                    <Training_AdminProduct>
+                        <title>Computer Games</title>
+                        <sort_order>10</sort_order>
+                    </Training_AdminProduct>
+                </children>
+            </admin>
+        </resources>
+    </acl>
+</config>

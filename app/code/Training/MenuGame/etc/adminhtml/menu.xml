@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="urn:magento:module:Magento_Backend:etc/menu.xsd">
+    <menu>
+        <add id="Training_MenuGame::games" title="Games" module="Training_MenuGame" sortOrder="10" resource="Training_MenuGame::games"  parent="Magento_Catalog::catalog"/>
+        <add id="Training_MenuGame::games_grid" title="Games Grid" module="Training_MenuGame" sortOrder="10" parent="Training_MenuGame::games" action="computergame/index/index" resource="Training_MenuGame::games"/>
+    </menu>
+</config>

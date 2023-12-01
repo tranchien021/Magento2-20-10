@@ -353,10 +353,13 @@ return [
         'PayPal_Braintree' => 1,
         'PayPal_BraintreeGraphQl' => 1,
         'Temando_ShippingRemover' => 1,
+        'Training_AclAdmin' => 1,
+        'Training_AdminProduct' => 1,
         'Training_AttributeModule' => 1,
         'Training_Breadcrumbs' => 1,
         'Training_CategoryCountries' => 1,
         'Training_CmsBlock' => 1,
+        'Training_ComputerGame' => 1,
         'Training_CustomApi' => 1,
         'Training_CustomBlock' => 1,
         'Training_CustomEntity' => 1,
@@ -372,6 +375,7 @@ return [
         'Training_GetPrice' => 1,
         'Training_HelloWorld' => 1,
         'Training_LoggerXml' => 1,
+        'Training_MenuGame' => 1,
         'Training_Sales' => 1,
         'Training_Pathinfors' => 1,
         'Training_ProductRepository' => 1,
@@ -380,6 +384,8 @@ return [
         'Training_RouterList' => 1,
         'Training_RouterUrl' => 1,
         'Training_Order' => 1,
-        'Training_VendorCustom' => 1
+        'Training_SystemConfiguration' => 1,
+        'Training_VendorCustom' => 1,
+        'Training_VendorTable' => 1
     ]
 ];
